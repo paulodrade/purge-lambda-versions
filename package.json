@@ -31,6 +31,6 @@
   },
   "dependencies": {
     "async": "^3.2.4",
-    "aws-sdk": "^2.1155.0"
+    "aws-sdk": "^2.1156.0"
   }
 }
