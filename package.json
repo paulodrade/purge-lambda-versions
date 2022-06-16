@@ -1,0 +1,36 @@
+{
+  "name": "purge-lambda-versions",
+  "version": "1.0.0",
+  "description": "API to delete old AWS Lambda versions",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulodrade/purge-lambda-versions.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "lambda",
+    "versions"
+  ],
+  "author": "paulodrade",
+  "license": "ISC",
+  "bin": {
+    "plv": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/paulodrade/purge-lambda-versions/issues"
+  },
+  "homepage": "https://github.com/paulodrade/purge-lambda-versions#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "aws-sdk": "^2.1155.0"
+  }
+}
