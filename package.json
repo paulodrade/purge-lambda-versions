@@ -1,13 +1,10 @@
 {
   "name": "purge-lambda-versions",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "API to delete old AWS Lambda versions",
   "main": "script.js",
   "scripts": {
-    "build-version": "npm --no-git-tag-version version patch",
-    "create-tag": "git tag v$(node -pe \"require('./package.json')['version']\")",
-    "publish-version": "npm publish",
-    "deploy": "npm run build-version && npm run create-tag && npm run publish-version"
+    "build": "npx tsc src/script.ts"
   },
   "repository": {
     "type": "git",
