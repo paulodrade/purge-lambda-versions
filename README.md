@@ -4,7 +4,7 @@ A package to delete old AWS lambda versions.
 ## Installation
 
 ```bash
-npm install purge-lambda-versions -g
+npm install purge-lambda-versions --save-dev
 ```
 
 ## Usage as API
