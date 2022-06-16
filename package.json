@@ -4,7 +4,10 @@
   "description": "API to delete old AWS Lambda versions",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-version": "npm --no-git-tag-version version patch",
+    "add-npm-version": "npm version $(node -pe \"require('./package.json')['version']\")",
+    "publish-version": "npm publish",
+    "deploy": "npm run build-version && npm run add-npm-version && npm run publish-version"
   },
   "repository": {
     "type": "git",
