@@ -1,6 +1,6 @@
 {
   "name": "purge-lambda-versions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API to delete old AWS Lambda versions",
   "main": "script.js",
   "scripts": {
